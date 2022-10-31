@@ -15,9 +15,13 @@ struct ContentView: View {
 
     // User Interface
     var body: some View {
-        Image("Banana")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            Image("Banana")
+                .resizable()
+                .scaledToFit()
+            
+            Text("qwweweqwedqweqw")
+        }
     }
 }
 

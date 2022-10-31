@@ -15,9 +15,13 @@ struct SecondFavoriteThingApp: View {
 
     // User Interface
     var body: some View {
-        Image("download")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            Image("download")
+                .resizable()
+                .scaledToFit()
+        
+            
+        }
     }
 }
 
