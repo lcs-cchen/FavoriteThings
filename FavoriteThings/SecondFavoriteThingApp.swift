@@ -19,15 +19,21 @@ struct SecondFavoriteThingApp: View {
             Image("download")
                 .resizable()
                 .scaledToFit()
-        
             
+            Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour")
+                .padding(10)
+            Spacer()
         }
+        .navigationTitle("Mandalorian")
+        
     }
 }
 
 
 struct SecondFavoriteThingApp_Previews: PreviewProvider {
     static var previews: some View {
-        SecondFavoriteThingApp()
+        NavigationView{
+            SecondFavoriteThingApp()
+        }
     }
 }

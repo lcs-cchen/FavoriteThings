@@ -20,13 +20,19 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
             
-            Text("qwweweqwedqweqw")
+            Text("I like bananas, I love bananas. I like eating juicy ripe bananas. Yummy!")
+            Spacer()
         }
+        .navigationTitle("Banana")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+    NavigationView {
         ContentView()
+            
+        }
+        
     }
 }

@@ -15,15 +15,25 @@ struct ThirdFavoriteThingApp: View {
 
     // User Interface
     var body: some View {
-        Image("xxx")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            Image("xxx")
+                .resizable()
+                .scaledToFit()
+            Text("I Like this album because it has alot of very good songs. This ablum is made by XXXTENTACION who died in a shooting.")
+                .padding(10)
+            Spacer()
+        }
+        .navigationTitle("? by XXXTENTACION")
     }
+        
 }
 
 
 struct ThirdFavoriteThingApp_Previews: PreviewProvider {
     static var previews: some View {
-        ThirdFavoriteThingApp()
+        NavigationView {
+            ThirdFavoriteThingApp()
+        }
+        
     }
 }
