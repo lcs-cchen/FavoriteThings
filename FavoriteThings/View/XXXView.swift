@@ -1,13 +1,13 @@
 //
-//  ThirdFavroiteThingApp.swift
+//  XXXView.swift
 //  FavoriteThings
 //
-//  Created by Cyrus Chen on 31/10/2022.
+//  Created by Cyrus Chen on 1/11/2022.
 //
 
 import SwiftUI
 
-struct ThirdFavoriteThingApp: View {
+struct XXXView: View {
     
     // MARK: Stored propreties
     
@@ -29,10 +29,10 @@ struct ThirdFavoriteThingApp: View {
 }
 
 
-struct ThirdFavoriteThingApp_Previews: PreviewProvider {
+struct XXXView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ThirdFavoriteThingApp()
+            XXXView()
         }
         
     }

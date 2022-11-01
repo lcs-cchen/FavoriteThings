@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  BananaView.swift
 //  FavoriteThings
 //
-//  Created by Cyrus Chen on 28/10/2022.
+//  Created by Cyrus Chen on 1/11/2022.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct BananaView: View {
     
     // MARK: Stored propreties
     
@@ -27,10 +27,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BananaView_Previews: PreviewProvider {
     static var previews: some View {
     NavigationView {
-        ContentView()
+        BananaView()
             
         }
         

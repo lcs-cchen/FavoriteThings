@@ -1,13 +1,13 @@
 //
-//  SecondFavoriteThingApp.swift
+//  MandoView.swift
 //  FavoriteThings
 //
-//  Created by Cyrus Chen on 28/10/2022.
+//  Created by Cyrus Chen on 1/11/2022.
 //
 
 import SwiftUI
 
-struct SecondFavoriteThingApp: View {
+struct MandoView: View {
     
     // MARK: Stored propreties
     
@@ -30,10 +30,10 @@ struct SecondFavoriteThingApp: View {
 }
 
 
-struct SecondFavoriteThingApp_Previews: PreviewProvider {
+struct MandoView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            SecondFavoriteThingApp()
+            MandoView()
         }
     }
 }
