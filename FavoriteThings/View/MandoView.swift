@@ -15,16 +15,18 @@ struct MandoView: View {
 
     // User Interface
     var body: some View {
-        VStack {
-            Image("download")
-                .resizable()
-                .scaledToFit()
-            
-            Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour")
-                .padding(10)
-            Spacer()
+        return ScrollView {
+            VStack {
+                Image("download")
+                    .resizable()
+                    .scaledToFit()
+                
+                Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour.")
+                    .padding(10)
+                Spacer()
+            }
         }
-        .navigationTitle("Mandalorian")
+            .navigationTitle("Mandalorian")
         
     }
 }

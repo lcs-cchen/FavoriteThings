@@ -15,15 +15,18 @@ struct BananaView: View {
 
     // User Interface
     var body: some View {
-        VStack {
-            Image("Banana")
-                .resizable()
-                .scaledToFit()
-            
-            Text("I like bananas, I love bananas. I like eating juicy ripe bananas. Yummy!")
-            Spacer()
+        ScrollView {
+            VStack {
+                Image("Banana")
+                    .resizable()
+                    .scaledToFit()
+                
+                Text("I like bananas, I love bananas. I like eating juicy ripe bananas. Yummy!")
+                Spacer()
+            }
         }
         .navigationTitle("Banana")
+    
     }
 }
 
