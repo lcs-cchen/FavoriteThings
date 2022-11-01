@@ -13,6 +13,7 @@
 		6E8BAEBF2911A33D0094D044 /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BAEBE2911A33D0094D044 /* BananaView.swift */; };
 		6E8BAEC12911A3EA0094D044 /* MandoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BAEC02911A3EA0094D044 /* MandoView.swift */; };
 		6E8BAEC52911A4300094D044 /* XXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BAEC42911A4300094D044 /* XXXView.swift */; };
+		6E8BAEC72911A7810094D044 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BAEC62911A7810094D044 /* FavouriteThingsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6E8BAEBE2911A33D0094D044 /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
 		6E8BAEC02911A3EA0094D044 /* MandoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandoView.swift; sourceTree = "<group>"; };
 		6E8BAEC42911A4300094D044 /* XXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXView.swift; sourceTree = "<group>"; };
+		6E8BAEC62911A7810094D044 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				6E8BAEBE2911A33D0094D044 /* BananaView.swift */,
 				6E8BAEC02911A3EA0094D044 /* MandoView.swift */,
 				6E8BAEC42911A4300094D044 /* XXXView.swift */,
+				6E8BAEC62911A7810094D044 /* FavouriteThingsListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				6E8BAEC12911A3EA0094D044 /* MandoView.swift in Sources */,
 				6E4BA859290C12BB000F9CB9 /* FavoriteThingsApp.swift in Sources */,
+				6E8BAEC72911A7810094D044 /* FavouriteThingsListView.swift in Sources */,
 				6E8BAEC52911A4300094D044 /* XXXView.swift in Sources */,
 				6E8BAEBF2911A33D0094D044 /* BananaView.swift in Sources */,
 			);
