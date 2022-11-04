@@ -16,15 +16,23 @@ struct FavouriteThingsListView: View {
                 Text("Banana")
             })
             NavigationLink(destination: {
-                MandoView()
+                StarWarsView()
             }, label: {
-                Text("Mandalorian")
+                Text("Star Wars")
             })
             NavigationLink(destination: {
                 XXXView()
             }, label: {
                 Text("'?' album")
             })
+            NavigationLink(destination: {
+                TorontoMapleLeafView()
+            }, label: {
+                Text("Toronto Maple Leafs")
+            })
+            
+            
+            
             
         }
         

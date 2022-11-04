@@ -1,5 +1,5 @@
 //
-//  MandoView.swift
+//  OriginalTrilogyView.swift
 //  FavoriteThings
 //
 //  Created by Cyrus Chen on 3/11/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MandoView: View {
+struct OriginalTrilogyView: View {
     
     // MARK: Stored propreties
     
@@ -17,28 +17,27 @@ struct MandoView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("download")
+                Image("123")
                     .resizable()
                     .scaledToFit()
                 
-                Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour.")
-                    .padding(10)
+                Text("This is the original trilogy of the famous movie series 'Star Wars' which was released in 1977. This is arguably one of the best trilogies released by film.")
+                    .padding(20)
                     Spacer()
             }
         }
-        .navigationTitle("Mandalorian")
+        .navigationTitle("Original Star wars")
+        
     
     }
 }
 
-struct MandoView_Previews: PreviewProvider {
+struct OriginalTrilogy_Previews: PreviewProvider {
     static var previews: some View {
     NavigationView {
-        MandoView()
+        OriginalTrilogyView()
             
         }
         
     }
 }
-
-

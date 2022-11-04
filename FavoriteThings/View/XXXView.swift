@@ -16,6 +16,7 @@ struct XXXView: View {
     // User Interface
     var body: some View {
         VStack {
+            
             Image("xxx")
                 .resizable()
                 .scaledToFit()
@@ -24,6 +25,7 @@ struct XXXView: View {
             Spacer()
         }
         .navigationTitle("? by XXXTENTACION")
+        
     }
         
 }
