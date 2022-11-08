@@ -21,7 +21,7 @@ struct MandoView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour.")
+                Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour. This is a starwars side show called mandolorian which I think is one of the best shows.")
                     .padding(10)
                     Spacer()
             }

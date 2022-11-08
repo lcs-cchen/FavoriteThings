@@ -30,6 +30,11 @@ struct FavouriteThingsListView: View {
             }, label: {
                 Text("Toronto Maple Leafs")
             })
+            NavigationLink(destination: {
+                CatView()
+            }, label: {
+                Text("Cats")
+            })
             
             
             

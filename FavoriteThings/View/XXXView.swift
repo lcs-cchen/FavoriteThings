@@ -16,16 +16,16 @@ struct XXXView: View {
     // User Interface
     var body: some View {
         VStack {
-            
-            Image("xxx")
-                .resizable()
-                .scaledToFit()
-            Text("I Like this album because it has alot of very good songs. This ablum is made by XXXTENTACION who died in a shooting.")
-                .padding(10)
-            Spacer()
+            ScrollView{
+                Image("xxx")
+                    .resizable()
+                    .scaledToFit()
+                Text("I Like this album because it has alot of very good songs. This ablum is made by XXXTENTACION who died in a shooting.")
+                    .padding(10)
+                Spacer()
+            }
+            .navigationTitle("? by XXXTENTACION")
         }
-        .navigationTitle("? by XXXTENTACION")
-        
     }
         
 }
