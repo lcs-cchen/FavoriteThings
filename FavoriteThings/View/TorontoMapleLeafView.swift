@@ -16,12 +16,10 @@ struct TorontoMapleLeafView: View {
     // User Interface
     var body: some View {
         return ScrollView {
-            VStack {
+            VStack (alignment:.leading){
                 
             
-                Image("Toronto")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "Toronto", caption: "This is the logo of the toronto maple leafs, Torontos ice hockey team", credit: "Image found in google")
                 
                 Text("This is the logo of the Toronto Maple Leafs which is the team I have switched to coming to lakefield college school. ")
                     .padding(10)

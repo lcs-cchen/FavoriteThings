@@ -16,13 +16,12 @@ struct OriginalTrilogyView: View {
     // User Interface
     var body: some View {
         ScrollView {
-            VStack {
-                Image("123")
-                    .resizable()
-                    .scaledToFit()
+            VStack (alignment: .leading){
+                
+            PhotoCaptionView(photo: "123", caption: "starwars drawing made for the original tirlogy with all the maind characters", credit: "Image from google")
                 
                 Text("This is the original trilogy of the famous movie series 'Star Wars' which was released in 1977. This is arguably one of the best trilogies released by film.")
-                    .padding(20)
+                    .padding(10)
                     Spacer()
             }
         }

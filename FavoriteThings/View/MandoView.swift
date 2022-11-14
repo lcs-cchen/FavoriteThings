@@ -16,10 +16,8 @@ struct MandoView: View {
     // User Interface
     var body: some View {
         ScrollView {
-            VStack {
-                Image("download")
-                    .resizable()
-                    .scaledToFit()
+            VStack (alignment: .leading){
+                PhotoCaptionView(photo: "download", caption: "This is the symbol of the mandolorian", credit: "Image from google")
                 
                 Text("Symbol of the mandalorian tribe which was imprinted on the side of his beskar armour. This is a starwars side show called mandolorian which I think is one of the best shows.")
                     .padding(10)

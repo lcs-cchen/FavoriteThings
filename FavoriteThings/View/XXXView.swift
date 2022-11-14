@@ -15,17 +15,17 @@ struct XXXView: View {
 
     // User Interface
     var body: some View {
-        VStack {
-            ScrollView{
-                Image("xxx")
-                    .resizable()
-                    .scaledToFit()
-                Text("I Like this album because it has alot of very good songs. This ablum is made by XXXTENTACION who died in a shooting.")
+        ScrollView{
+            VStack (alignment: .leading){
+                
+                PhotoCaptionView(photo: "xxx", caption: "Album cover '?' By xxxtentacion", credit: "Image found on google")
+                Text("I Like this album because it has alot of very good songs. This ablum is made by XXXTENTACION who died in a shooting. This playlist has some of his best songs")
                     .padding(10)
                 Spacer()
             }
-            .navigationTitle("? by XXXTENTACION")
         }
+            .navigationTitle("? by XXXTENTACION")
+        
     }
         
 }

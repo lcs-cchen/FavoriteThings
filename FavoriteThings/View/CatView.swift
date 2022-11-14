@@ -15,17 +15,15 @@ struct CatView: View {
 
     // User Interface
     var body: some View {
-        return ScrollView {
-            VStack {
+        ScrollView {
+            VStack (alignment: .leading){
                 
             
-                Image("cat")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "cat", caption: "brown cat ", credit: "Image found on google")
                 
                 Text("At my house in Hong Kong, I have 4 cats. Two adoped and two bought. I really like cats because I think they are very cute.")
                     .padding(10)
-                Spacer()
+                    Spacer()
             }
         }
             .navigationTitle("Cats")

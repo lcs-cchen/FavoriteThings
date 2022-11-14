@@ -32,7 +32,7 @@
 		6E8BAEBE2911A33D0094D044 /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
 		6E8BAEC02911A3EA0094D044 /* StarWarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsView.swift; sourceTree = "<group>"; };
 		6E8BAEC42911A4300094D044 /* XXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXXView.swift; sourceTree = "<group>"; };
-		6E8BAEC62911A7810094D044 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
+		6E8BAEC62911A7810094D044 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		6E8BAECA2911AAEA0094D044 /* TorontoMapleLeafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoMapleLeafView.swift; sourceTree = "<group>"; };
 		6E9DFA96291AE83900185D80 /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +86,8 @@
 		6E8BAEBD2911A2870094D044 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6E9DFA96291AE83900185D80 /* PhotoCaptionView.swift */,
 				6E8BAEC62911A7810094D044 /* FavouriteThingsListView.swift */,
+				6E9DFA96291AE83900185D80 /* PhotoCaptionView.swift */,
 				6E8BAEBE2911A33D0094D044 /* BananaView.swift */,
 				6E8BAEC02911A3EA0094D044 /* StarWarsView.swift */,
 				6E37115C29148C4C007796E9 /* MandoView.swift */,

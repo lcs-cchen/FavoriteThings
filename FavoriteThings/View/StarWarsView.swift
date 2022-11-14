@@ -15,27 +15,28 @@ struct StarWarsView: View {
 
     // User Interface
     var body: some View {
+
         VStack {
+                
+                PhotoCaptionView(photo: "starWars", caption: "The logo of the Starwars franchise", credit: "Image from google")
+                
+                
+                List {
+                    NavigationLink(destination: {
+                        MandoView()
+                    }, label: {
+                        Text("Mandolorian")
+                    })
+                    NavigationLink(destination: {
+                        OriginalTrilogyView()
+                    }, label: {
+                        Text("Original Trilogy")
+                    })
+                }
+                
+                
             
-            Image("starWars")
-                    .resizable()
-                    .scaledToFit()
-        List {
-                NavigationLink(destination: {
-                    MandoView()
-                }, label: {
-                    Text("Mandolorian")
-                })
-            NavigationLink(destination: {
-                OriginalTrilogyView()
-            }, label: {
-                Text("Original Trilogy")
-            })
-            }
-        
-           
-            }
-        
+        }
             .navigationTitle("Star wars")
             
         
